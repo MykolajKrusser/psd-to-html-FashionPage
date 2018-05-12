@@ -1,0 +1,23 @@
+
+.header{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    align-items: center;
+    height: 70px;
+    border: 1px solid black;
+    margin: 0 -15px;
+}
+.menuBtn{
+    width: calc(41.66% - 15px);
+    padding: 0 15px;
+    border: 1px solid black;
+}
+.logo{
+    width: 16.66%;
+    padding: 0 15px;border: 1px solid black;
+}
+.nav{
+    width: calc(41.66% - 15px);
+    padding: 0 15px;border: 1px solid black;
+}
