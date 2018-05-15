@@ -1,0 +1,23 @@
+#Features{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 70px -15px 0 -15px;
+}
+
+.Features__lookbook{
+    height: 400px;
+    width: 41.67%;
+    margin: 0 15px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.Features__trend{
+    height: 470px;
+    width: 41.67%;
+    background: url(../img/Features__trend.jpg) no-repeat center;
+    background-size: 100% 100%; 
+}
