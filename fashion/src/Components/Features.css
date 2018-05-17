@@ -1,6 +1,6 @@
 #Features{
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     text-align: center;
     align-items: center;
     min-height: 100vh;
@@ -9,15 +9,41 @@
 
 .Features__lookbook{
     height: 400px;
-    width: 41.67%;
-    margin: 0 15px;
     flex-direction: column;
     text-align: center;
     align-items: center;
+    transform: scale(1, 1);
 }
+.Features__lookbook__text{
+    flex-direction: column;
+}
+
+.Features__shopNow{
+    height: 270px;
+    width: 270px;
+    margin-top: 300px;
+    background: url(../img/Features__shopNow.jpg) no-repeat center;
+    background-size: 100% 100%;
+    transform: scale(1, 1);
+    z-index: 2;
+}
+
 .Features__trend{
     height: 470px;
-    width: 41.67%;
     background: url(../img/Features__trend.jpg) no-repeat center;
-    background-size: 100% 100%; 
+    background-size: 100% 100%;
+    transform: scale(1.65, 1);
+}
+
+.Features__featured{
+    height: 470px;
+    margin:60px 0 0 0;
+    background: url(../img/Image1.jpg) no-repeat center;
+    background-size: 100% 100%;
+    transform: scale(2.1, 1);
+    z-index: 1;
+}
+
+.col{
+    width: 25%;
 }

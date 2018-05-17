@@ -5,26 +5,24 @@ class Features extends Component {
   render() {
     return (
         <div id="Features" className="flex">
-            <div className="Features__lookbook flex">
+            <div className="Features__lookbook flex col">
                 <h2>2018 lookbook</h2>
-                <article>
-                    <pre>- it`s the Season 
-                        to Renew
-                    Your Style with
-                    New Colors
-                    </pre>
+                <article className="Features__lookbook__text flex">
+                    <span>- it`s the Season to Renew</span>
+                    <span>Your Style with</span>
+                    <span>New Colors</span>
                 </article>
             </div>
-            <div className="Features__trend flex">
-                <h2>Fasion trand</h2>
-            </div>
-            <div className="Features__featured flex">
-
-            </div>
-            <div className="Features__shopNow flex">
+             <div className="Features__shopNow flex">
                 <h2>Summer Sale</h2>
                 <article>30% OFF</article>
                 <a href="#">Shop Now</a>
+            </div>
+            <div className="Features__trend flex col">
+                <h2>Fasion trand</h2>
+            </div>
+            <div className="Features__featured flex col">
+
             </div>
         </div>
     );
