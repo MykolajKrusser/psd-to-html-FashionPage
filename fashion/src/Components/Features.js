@@ -6,7 +6,7 @@ class Features extends Component {
     return (
         <div id="Features" className="flex">
             <div className="Features__lookbook flex col">
-                <h2>2018 lookbook</h2>
+                <h2>2018 Lookbook</h2>
                 <article className="Features__lookbook__text flex">
                     <span>- it`s the Season to Renew</span>
                     <span>Your Style with</span>
@@ -19,7 +19,7 @@ class Features extends Component {
                 <a href="#">Shop Now</a>
             </div>
             <div className="Features__trend flex col">
-                <h2>Fasion trand</h2>
+                <h2>Fashion trend</h2>
             </div>
             <div className="Features__featured flex col">
 

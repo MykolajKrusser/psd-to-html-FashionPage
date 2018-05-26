@@ -9,16 +9,36 @@
 
 .Features__lookbook{
     height: 400px;
+    margin-top: 130px;
     flex-direction: column;
-    text-align: center;
-    align-items: center;
+    text-align: right;
+    align-items: right;
     transform: scale(1, 1);
+}
+.Features__lookbook h2{
+    color:#0bc4d9;
+    font-size: 14px;
+    font-family: 'Lora', serif; 
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
 .Features__lookbook__text{
     flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 33px;
 }
 
 .Features__shopNow{
+    flex-direction: column;
+    justify-content: flex-end;
+    color:white;
+    font-family: 'Lora', serif;
+    font-weight: 400;
     height: 270px;
     width: 270px;
     background: url(../img/Features__shopNow.jpg) no-repeat center;
@@ -26,6 +46,25 @@
     transform: scale(1, 1) translate(37%, 65%);
     z-index: 2;
     transition: all 0.5s ease;
+}
+.Features__shopNow h2{
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
+.Features__shopNow article{
+    font-size: 20px;
+    font-weight: 600;
+}
+.Features__shopNow a{
+    text-decoration: none;
+    border: 1px solid transparent;
+    background: white;
+    width: 130px;
+    margin: 20px auto 30px auto;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 4px 0;
 }
 .Features__shopNow:hover{
     transform: scale(1.1, 1.1) translate(37%, 65%);
@@ -39,6 +78,19 @@
     background-size: 100% 100%;
     transform: scale(1.65, 1);
     transition: all 0.5s ease;
+}
+.Features__trend h2{
+    transform: rotate(-90deg) translate(120%, 33%);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    text-transform: uppercase;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    letter-spacing: 3px;
+    width: 130px;
 }
 .Features__trend:hover{
     transform: scale(1.75, 1.1);
