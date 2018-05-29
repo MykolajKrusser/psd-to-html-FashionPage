@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Slider from './Slider/Slider';
 import './Features.css';
 
 class Features extends Component {
@@ -22,7 +23,7 @@ class Features extends Component {
                 <h2>Fashion trend</h2>
             </div>
             <div className="Features__featured flex col">
-
+                <Slider/>
             </div>
         </div>
     );
