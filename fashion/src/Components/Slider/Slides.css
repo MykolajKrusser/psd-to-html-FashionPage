@@ -1,0 +1,16 @@
+.slides{
+    height: 100%;
+    
+}
+.slide1{
+    background: url(../../img/Image1.jpg) center no-repeat;
+    background-size: 100% 100%;
+}
+.slide2{
+    background: url(../../img/Image2.jpg) center no-repeat;
+    background-size: 100% 100%;
+}
+.slide3{
+    background: url(../../img/Image3.jpg) center no-repeat;
+    background-size: 100% 100%;
+}

@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
+import './Slides.css';
 
 const SlideTwo= (props) => {
-    let background = {
-        backgroundImage: 'url(../../img/Image2.jpg)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center'
-      }
-    return <div style={background} className="slide"></div>
+    return <div className="slides slide2"></div>
 }
 
 export default SlideTwo;
