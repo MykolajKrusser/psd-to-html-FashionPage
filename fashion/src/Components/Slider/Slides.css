@@ -1,5 +1,6 @@
 .slides{
     height: 100%;
+    padding: 125px 0 0 50%
     
 }
 .slide1{
@@ -26,4 +27,35 @@
     to{
         opacity: 1;
     }
+}
+/*
+slides header, text, buttons
+*/
+.slides_header{
+    color: #4d337d;
+    font-family: 'Lora', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.slides_descript{
+    padding: 0 40px;
+    margin: 20px auto;
+    color: white;
+    font-family: 'Lora', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.slides_btn{
+    min-width: 160px;
+    min-height: 50px;
+    color: white;
+    font-family: 'Releway', serif;
+    font-weight: bold;
+    font-size:16px;
+    text-decoration: none;
+    background: #4d337d;
+    border: 1px solid transparent;
+    padding: 13px 25px;
 }

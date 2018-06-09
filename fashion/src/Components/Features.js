@@ -6,7 +6,7 @@ class Features extends Component {
   render() {
     return (
         <div id="Features" className="flex">
-            <div className="Features__lookbook flex col">
+            <div className="Features__lookbook flex">
                 <h2>2018 Lookbook</h2>
                 <article className="Features__lookbook__text flex">
                     <span>- it`s the Season to Renew</span>
@@ -19,10 +19,10 @@ class Features extends Component {
                 <article>30% OFF</article>
                 <a href="#">Shop Now</a>
             </div>
-            <div className="Features__trend flex col">
+            <div className="Features__trend flex ">
                 <h2>Fashion trend</h2>
             </div>
-            <div className="Features__featured flex col">
+            <div className="Features__featured flex">
                 <Slider/>
             </div>
         </div>
