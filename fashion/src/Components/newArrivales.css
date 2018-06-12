@@ -1,0 +1,13 @@
+#newArrivels_prod{
+    margin: 0 auto;
+    justify-content: center;
+}
+.newArrivales_prod{
+    background: url(../img/prod1.jpg) center no-repeat;
+    background-size: 100% 100%;
+    height: 350px;
+    margin: 15px;
+}
+.col{
+    width: 270px;
+}

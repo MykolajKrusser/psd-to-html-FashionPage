@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
-import './newArrivales.css';
+import './Newarrivales.css';
 
-class newArrivales extends Component {
+class Newarrivales extends Component {
   render() {
     return (
-      <div className="content-wr flex">
-        <div className="newArrivales_item col"></div>
-        <div className="newArrivales_item col"></div>
-        <div className="newArrivales_item col"></div>
-        <div className="newArrivales_item col"></div>
-        <div className="newArrivales_item col"></div>
-        <div className="newArrivales_item col"></div>
-      </div>
+      <section id="newArrivels_prod" className="content-wr flex">
+          <div className="newArrivales_prod col"></div>
+          <div className="newArrivales_prod col"></div>
+          <div className="newArrivales_prod col"></div>
+          <div className="newArrivales_prod col"></div>
+          <div className="newArrivales_prod col"></div>
+          <div className="newArrivales_prod col"></div>
+      </section>
     );
   }
 }
 
-export default newArrivales;
+export default Newarrivales;

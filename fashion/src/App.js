@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Components/Header';
 import Features from './Components/Features';
-import newArrivales from './Components/newArrivales';
-import moreProdacts from './Components/moreProdacts';
+import NewArrivales from './Components/Newarrivales';
 import './App.css';
 
 class App extends Component {
@@ -13,10 +12,7 @@ class App extends Component {
           <Header/>
           <Features/>
         </section>
-        <section id="newArrivals">
-          <newArrivales/>
-          <moreProdacts/>
-        </section>
+          <NewArrivales/>
       </div>
     );
   }
