@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import NewProduct from './NewProduct/NewProduct';
 import './Newarrivales.css';
-import data from '../database/NewProducts';
+import NewProducts from '../database/NewProducts';
 
 class Newarrivales extends Component {
   constructor(){
@@ -10,7 +11,7 @@ class Newarrivales extends Component {
     }
   }
   getProd(){
-    this.setState({products: data})
+    this.setState({products: NewProducts})
   }
   componentWillMount(){
     this.getProd()
@@ -19,15 +20,9 @@ class Newarrivales extends Component {
     this.getProd()
   }
   render() {
-    console.log(this.state.products)
     return (
       <section id="newArrivels_prod" className="content-wr flex">
-          <div className="newArrivales_prod col"></div>
-          <div className="newArrivales_prod col"></div>
-          <div className="newArrivales_prod col"></div>
-          <div className="newArrivales_prod col"></div>
-          <div className="newArrivales_prod col"></div>
-          <div className="newArrivales_prod col"></div>
+        <NewProduct/>
       </section>
     );
   }
