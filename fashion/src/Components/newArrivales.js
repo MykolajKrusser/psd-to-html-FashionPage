@@ -3,6 +3,7 @@ import NewProduct from './NewProduct/NewProduct';
 import './Newarrivales.css';
 import NewProducts from '../database/NewProducts';
 
+
 class Newarrivales extends Component {
   constructor(){
     super();
@@ -20,9 +21,19 @@ class Newarrivales extends Component {
     this.getProd()
   }
   render() {
+    const background = {
+
+    }
+    const NewProductsList = this.state.products.map(()=>{
+      return <NewProduct
+      style={background}
+      key={this.state.products.id} 
+      title={this.state.products.title}
+      cost={this.state.products.cost}/>
+    })
     return (
       <section id="newArrivels_prod" className="content-wr flex">
-        <NewProduct/>
+        {NewProductsList}
       </section>
     );
   }
