@@ -1,32 +1,38 @@
 [
     {
-        "id": 1,
+        "id": "1",
         "title": "dress 1",
-        "cost": 218
+        "cost": 218,
+        "url": "https://thumbs.dreamstime.com/b/fashion-girl-having-fun-crazy-dance-pink-hat-woman-blond-model-stylish-spring-summer-outfit-sunglasses-glamour-shorts-85335075.jpg"
     },
     {
-        "id": 2,
+        "id": "2",
         "title": "dress 2",
-        "cost": 218
+        "cost": 218,
+        "url": ""
     },
     {
-        "id": 3,
+        "id": "3",
         "title": "dress 3",
-        "cost": 218
+        "cost": 218,
+        "url": "https://thumbs.dreamstime.com/b/mujer-joven-rubia-en-vestido-floral-del-verano-de-la-primavera-92978878.jpg"
     },
     {
-        "id": 4,
+        "id": "4",
         "title": "dress 4",
-        "cost": 218
+        "cost": 218,
+        "url": "http://static1.gophotoweb.com/u349/1387/photos/37511/1000-a0c5d24900b46c48d9190cf0662d7b40.jpg"
     },
     {
-        "id": 5,
+        "id": "5",
         "title": "dress 5",
-        "cost": 218
+        "cost": 218,
+        "url": "https://www.kupivip.ru/fashionblog/wp-content/uploads/2017/09/1991-2-668147732.jpg"
     },
     {
-        "id": 6,
+        "id": "6",
         "title": "dress 6",
-        "cost": 218
+        "cost": 218,
+        "url": "https://www.dhresource.com/0x0s/f2-albu-g5-M01-A4-FF-rBVaJFi7tjaAFE4GAAB7HRk-JNk204.jpg/2017-big-baby-girls-off-junior-spring.jpg"
     }
 ]
