@@ -2,23 +2,31 @@
     height: 100%;
 }
 #newArrivals_prod{
-    margin: 0 auto;
+    margin: 170px auto 50px auto;
     justify-content: center;
 }
+
 .newArrivales_prod{
     background-size: 100% 100%;
     height: 350px;
     margin: 15px;
 }
+.newArrivales_prod:nth-child(2){
+    transform: translate(0px, -50px)
+}
+.newArrivales_prod:nth-child(5){
+    transform: translate(0px, -50px)
+}
 .newArrivales_prod:hover .newArrivales_prod_forhover{
-    display: block;
+    display: flex;
     animation-name: display;
     animation-duration: 1s;
     animation-timing-function: cubic-bezier(0.65, 0.05, 0, 0.79);
+    outline-offset: -17px;
 }
 @keyframes display {
-    from {opacity:0}
-    to {opacity: 1}
+    from {opacity:0;outline-offset: 0;}
+    to {opacity: 1;outline-offset: -17px;}
 }
 
 .newArrivales_prod img{
@@ -31,11 +39,43 @@
 }
 
 .newArrivales_prod_forhover{
+    display: none;
+    flex-direction: column;
     width: 230px;
     height: 310px;
-    background: red;
+    background: white;
     margin: 15px;
     transform: translate(5px, -350px);
-    display: none;
+    outline: 1px solid gray;
+    outline-offset: 0;
+    padding: 50px;
+}
+.newArrivales_prod_forhover h3{
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.newArrivales_prod_forhover div{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 10px 0;
+}
+.newArrivales_prod_forhover a{
     text-align: center;
+    text-decoration: none;
+    border: 1px solid transparent;
+    background: #1ac8db;
+    width: 130px;
+    margin: 20px auto 30px auto;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 6px 0;
+    transition: all .5s ease-in-out;
+}
+.newArrivales_prod_forhover a:hover{
+    box-shadow: inset 0px 0px 10px 14px rgba(255,255,255,0.65);
+    transition: all .5s ease-in-out;
 }
