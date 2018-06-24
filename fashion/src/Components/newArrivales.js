@@ -32,11 +32,14 @@ class Newarrivales extends Component {
       title={product.title}
       cost={product.cost}
       img={product.url}
+      special={product.special}
       />
     })
     return (
-      <section id="newArrivals_prod" className="content-wr flex">
-        {NewProductsList}
+      <section id="newArrivals_prod">
+        <div className="content-wr flex">{NewProductsList}</div>
+        <div className="content-wr flex"><button>More Products</button></div>
+        
       </section>
     );
   }
