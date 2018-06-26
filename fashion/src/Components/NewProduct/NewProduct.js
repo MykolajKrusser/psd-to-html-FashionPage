@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class NewProduct extends Component {
   render() {
     return (
-      <div className="newArrivales_prod col" key={this.props.key}>
+      <div className="newArrivales_prod col">
           <img src={this.props.img}/>
           <div className="newArrivales_prod_forhover">
             <h3 className="newArrivales_prod_title">{this.props.title}</h3>

@@ -9,21 +9,21 @@ class Newarrivales extends Component {
     super(props)
     this.state = {
         products: [],
-        test: [
-          {a:1},
-          {a:2},
-          {a:3}
-        ]
+        visibleProducts: 6
     }
   }
+
   getProd(){
-    this.setState({products: NewProducts})
+    this.setState({products: NewProducts.slice(0, this.state.visibleProducts)})
   }
   componentWillMount(){
     this.getProd()
   }
   componentDidMount(){
     this.getProd()
+  }
+  moreProducts(){
+    this.setState({visibleProducts: this.state.visibleProducts + 1})
   }
   render() {
     const NewProductsList = this.state.products.map((product)=>{
@@ -38,8 +38,7 @@ class Newarrivales extends Component {
     return (
       <section id="newArrivals_prod">
         <div className="content-wr flex">{NewProductsList}</div>
-        <div className="content-wr flex"><button>More Products</button></div>
-        
+        <div className="content-wr flex"><button onClick={this.moreProducts}>More Products</button></div>
       </section>
     );
   }
