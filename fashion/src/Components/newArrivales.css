@@ -4,12 +4,6 @@
 #newArrivals_prod div{
     justify-content: center;
 }
-#newArrivals_prod button{
-    border: 4px solid black;
-    padding: 10px;
-    background: white;
-    margin: 0 auto;
-}
 .newArrivales_prod{
     height: 350px;
     margin: 15px;
@@ -114,4 +108,20 @@
     font-family: 'Lora', serif;
     font-size: 14px;
     font-weight: 300;
+}
+#newArrivals_prod button{
+    border: 2px solid black;
+    width: 170px;
+    height: 50px;
+    background-color: white;
+    margin: 20px auto;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+#newArrivals_prod button:hover{
+    background-color: #e5969c;
+    transition: all .5s ease;
 }
