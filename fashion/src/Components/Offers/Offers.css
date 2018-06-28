@@ -1,3 +1,11 @@
 #offers{
     margin: 170px auto 50px auto;
 }
+.offers_col{
+    width: 250px;
+    height: 250px;
+    margin: 0
+}
+.input{
+    width: 470px;
+}

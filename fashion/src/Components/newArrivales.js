@@ -5,28 +5,14 @@ import NewProducts from '../database/NewProducts';
 
 
 class Newarrivales extends Component {
-  constructor(props){
-    super(props)
-    this.state = {
-        products: [],
-        visibleProducts: 6
-    }
-  }
-
-  getProd(){
-    this.setState({products: NewProducts.slice(0, this.state.visibleProducts)})
-  }
-  componentWillMount(){
-    this.getProd()
-  }
-  componentDidMount(){
-    this.getProd()
+  state = {
+    vizProd: NewProducts.slice(0, 6)
   }
   moreProducts(){
-    this.setState({visibleProducts: this.state.visibleProducts + 1})
+    
   }
   render() {
-    const NewProductsList = this.state.products.map((product)=>{
+    const NewProductsList = this.state.vizProd.map((product)=>{
       return <NewProduct
       key={product.id}
       title={product.title}
