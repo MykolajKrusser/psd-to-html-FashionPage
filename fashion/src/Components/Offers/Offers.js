@@ -27,9 +27,9 @@ class Offers extends Component {
                         <img src={img2} alt=""/>
                     </div>
                     <div className='offers_col input'>
-                        <p>Enter your email for <span>exlusive offers</span> & new arrivals</p>
-                        <input type='text'/>
-                        <button>Sing Up</button>
+                        <p>Enter your email for<br/><span>exlusive offers</span> & new arrivals</p>
+                        <input type='text' placeholder='Your email'/>
+                        <button>Sign Up</button>
                     </div>
                     <div className='offers_col'>
                         <img src={img4} alt=""/>
@@ -41,7 +41,7 @@ class Offers extends Component {
                         <img src={img6} alt=""/>
                     </div>
                     <div className='offers_col'>
-                        <img src={img7} alt=""/>
+                        <img src={img7} alt="facebook-temp"/>
                     </div>
                 </div>
             </section>
