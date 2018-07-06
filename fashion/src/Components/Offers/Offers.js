@@ -11,33 +11,38 @@ import img7 from '../../img/offer7.jpg';
 
 class Offers extends Component {
     state ={
-        offers:[
-            {
-                img: img1,
-                description: '@wfashionstore'
-            },
-            {img: img2},
-            {
-                img: img3,
-                description: 'Enter Your email for exclusive offers & new arrivals'
-            },
-            {img: img4},
-            {img: img5},
-            {img: img6},
-            {img: img7}
-        ]
+
     }
     render(){
+        
         return(
             <section id='offers'>
                 <div className='content-wr flex'>
-                    <div className='offers_col'></div>
-                    <div className='offers_col'></div>
-                    <div className='offers_col input'></div>
-                    <div className='offers_col'></div>
-                    <div className='offers_col'></div> 
-                    <div className='offers_col'></div>
-                    <div className='offers_col'></div>
+                    <div className='offers_col'>
+                        <img src={img1} alt='instagram_logo' className='instagram_logo'/>
+                        <p>@wfashionstore</p>
+                        <p>follow us on instagram</p>
+                    </div>
+                    <div className='offers_col'>
+                        <img src={img2} alt=""/>
+                    </div>
+                    <div className='offers_col input'>
+                        <p>Enter your email for <span>exlusive offers</span> & new arrivals</p>
+                        <input type='text'/>
+                        <button>Sing Up</button>
+                    </div>
+                    <div className='offers_col'>
+                        <img src={img4} alt=""/>
+                    </div>
+                    <div className='offers_col'>
+                        <img src={img5} alt=""/>
+                    </div> 
+                    <div className='offers_col'>
+                        <img src={img6} alt=""/>
+                    </div>
+                    <div className='offers_col'>
+                        <img src={img7} alt=""/>
+                    </div>
                 </div>
             </section>
         );

@@ -1,11 +1,38 @@
 #offers{
     margin: 170px auto 50px auto;
 }
+#offers div{
+    justify-content: center;
+}
 .offers_col{
     width: 250px;
     height: 250px;
     margin: 0
 }
 .input{
-    width: 470px;
+    width: 500px;
 }
+.offers_col:nth-child(1){
+    background: #bc2a8d;
+    text-align: center;
+}
+.offers_col:nth-child(1) img{
+    padding: 80px 0 10px 0;
+}
+.offers_col:nth-child(1) p:first-of-type{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.offers_col:nth-child(1) p:last-of-type{
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    transform: rotate(-90deg) translate(38px, -135px);
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+
