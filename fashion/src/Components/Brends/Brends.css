@@ -1,0 +1,10 @@
+#brends{
+    flex-direction: row;
+    justify-content: center;
+    margin: 120px auto;
+}
+.colBrends{
+    height: 20px;
+    margin: 25px;
+    width: 130px;
+}
