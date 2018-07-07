@@ -1,8 +1,15 @@
 import React, {Component} from 'react';
 import Shop from './Shop/Shop';
 import Company from './Company/Company';
+import Shop from '../../database/Shop';
+import Company from '../../database/Company';
+import './Footer.css';
 
 class Footer extends Component{
+    state={
+        shop: Shop,
+        company: Company
+    }
     render(){
         return(
             <section id='footer' className='content-wr flex'>
