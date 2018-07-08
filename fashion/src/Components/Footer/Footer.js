@@ -3,6 +3,9 @@ import Shop from './Shop/Shop';
 import Company from './Company/Company';
 import ShopLists from '../../database/Shop';
 import CompanyLists from '../../database/Company';
+import facebook from '../../img/facebook.svg';
+import insta from '../../img/instagramSoc.svg';
+import pinterest from '../../img/pinterest.svg'
 import './Footer.css';
 
 class Footer extends Component{
@@ -26,27 +29,29 @@ class Footer extends Component{
             />
         })
         return(
-            <section id='footer' className='content-wr flex'>
-                <div>
+            <section id='footer' className='flex'>
+                <div className="footerCol">
                     <h2>W/Fashion</h2>
                     <p>@2018 w/fashion</p>
                 </div>
-                <div>
-                   {shopListLinks}
+                <div className="footerCol flex">
+                    <h2>Shop</h2>
+                    <div className='flex'>{shopListLinks}</div>
                 </div>
-                <div>
-                    {CompanyListsLinks}
+                <div className="footerCol flex">
+                    <h2>Company</h2>
+                    <div className='flex'>{CompanyListsLinks}</div>
                 </div>
-                <div>
-                    <h3>Follow Us</h3>
-                    <a >
-                        <img />
+                <div className="footerCol">
+                    <h2>Follow Us</h2>
+                    <a href='facebook.com'>
+                        <img src={facebook} />
                     </a>
-                    <a >
-                        <img />
+                    <a href='instagram.com'>
+                        <img src={insta}/>
                     </a>
-                    <a >
-                        <img />
+                    <a href='pinterest.com'>
+                        <img src={pinterest}/>
                     </a>
                 </div>
             </section>
